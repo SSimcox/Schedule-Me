@@ -1,0 +1,30 @@
+{
+  "name": "Schedule-Me",
+  "version": "1.0.0",
+  "description": "a project for intelligent helper",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SSimcox/Schedule-Me.git"
+  },
+  "author": "Steven Simcox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SSimcox/Schedule-Me/issues"
+  },
+  "homepage": "https://github.com/SSimcox/Schedule-Me",
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "ejs-mate": "^2.3.0",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "moment": "^2.17.1",
+    "passport": "^0.3.2",
+    "passport-google-oauth": "^1.0.0",
+    "path": "^0.12.7",
+    "pg-promise": "^5.5.0"
+  }
+}
